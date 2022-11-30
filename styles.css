@@ -1,0 +1,59 @@
+:root {
+  --primary-color: #dd90ec;
+  --text-deco: center;
+  --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+body {
+  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/284/original/%E2%80%94Pngtree%E2%80%94beautiful_purple_smoke_effect_background_1160107.png?1669370454');
+  object-fit: stretch;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  text-align: var(--text-deco);
+  color: var(--primary-color);
+}
+.about {
+  text-align: var(--text-deco);
+  font-size: 25px;
+}
+
+#home {
+  display: block;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+}
+.paragraph {
+  font-size: 15px;
+  border: 1px solid var(--primary-color);
+  background-color: rgba(43, 39, 39, 0.8);
+  margin: 20px;
+  padding: 1em;
+  flex: 1;
+}
+
+button {
+  padding: 15px;
+  background-color: var(--primary-color);
+  border-color: white;
+  box-shadow: var(--box-shadow);
+}
+#button {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+#contact {
+  text-align: var(--text-deco);
+  padding: 40px;
+}
+#contact .email {
+  text-decoration: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
