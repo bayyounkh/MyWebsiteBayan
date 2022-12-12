@@ -15,7 +15,7 @@ body {
   font-family: 'Alice', serif;
 }
 h1 {
-  font-size: 200px;
+  font-size: 80px !important;
    font-family: 'Great Vibes', cursive;
   text-align: var(--text-deco);
   color: var(--primary-color);
@@ -52,9 +52,13 @@ font-size: 20px;
   text-align: var(--text-deco);
   padding: 40px;
 }
-#contact .email {
+#contact .contacting {
   text-decoration: none;
   color: var(--text-color);
+  font-size: 20px;
+}
+i {
+    color: #730F1E;
 }
 .personal {
      border-radius: 50%;
@@ -69,7 +73,8 @@ img {
 
 }
 .projects {
-    font-size: 36px;
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
     text-align: center;
     color: var(--primary-color);
     padding: 20px
