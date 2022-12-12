@@ -7,12 +7,13 @@ font-family: 'Tangerine', cursive; */
   --text-color: white;
   --text-deco: center;
   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --primary-font: 'Alice', serif;
 }
 body {
   background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/970/original/wallpaper.jpeg?1670848997');
   object-fit: stretch;
   color: white;
-  font-family: 'Alice', serif;
+  font-family: var(--primary-font);
 }
 h1 {
   font-size: 80px !important;
@@ -78,9 +79,11 @@ img {
     text-align: center;
     color: var(--primary-color);
     padding: 20px
+
 }
 .row {
     display: grid;
+
 }
 .col-sm-6 {
      border: 1px solid var(--primary-color) !important;
@@ -111,7 +114,7 @@ button a:hover {
 footer {
     text-align: center;
     font-size: 12px;
-
+    font-family: var(--primary-font);
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
