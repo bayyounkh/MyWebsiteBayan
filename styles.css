@@ -1,30 +1,35 @@
+/* font-family: 'Alice', serif;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Tangerine', cursive; */
 :root {
-  --primary-color: #dd90ec;
+  --primary-color: #730F1E;
   --text-color: white;
   --text-deco: center;
   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 body {
-  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/284/original/%E2%80%94Pngtree%E2%80%94beautiful_purple_smoke_effect_background_1160107.png?1669370454');
+  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/970/original/wallpaper.jpeg?1670848997');
   object-fit: stretch;
   color: white;
+  font-family: 'Alice', serif;
 }
 h1 {
-  font-size: 50px;
+  font-size: 200px;
+   font-family: 'Great Vibes', cursive;
   text-align: var(--text-deco);
   color: var(--primary-color);
 }
 .about {
   text-align: var(--text-deco);
-  font-size: 25px;
+  font-size: 48px;
+    font-family: 'Tangerine', cursive;
   color: var(--text-color);
 }
 
 
-/* .content {
-  display: grid;
-} */
 .paragraph {
+
   font-size: 20px;
   margin: 20px;
   padding: 1em;
@@ -53,6 +58,8 @@ font-size: 20px;
 }
 .personal {
      border-radius: 50%;
+      width: 300px;
+  height: 300px;
 }
 img {
   display: block;
