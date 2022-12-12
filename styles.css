@@ -15,11 +15,17 @@ body {
   color: white;
   font-family: var(--primary-font);
 }
+nav {
+    font-family: 'Berkshire Swash', cursive;
+}
 h1 {
   font-size: 80px !important;
    font-family: 'Great Vibes', cursive;
   text-align: var(--text-deco);
   color: var(--primary-color);
+}
+h2 {
+text-align: center;
 }
 .about {
   text-align: var(--text-deco);
@@ -34,6 +40,10 @@ h1 {
   font-size: 20px;
   margin: 20px;
   padding: 1em;
+}
+.description {
+   background-color: rgba(38, 37, 37, 0.5);
+
 
 }
 .paragraph-me {
@@ -74,11 +84,18 @@ img {
 
 }
 .projects {
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: bold;
     font-family: 'Tangerine', cursive;
     text-align: center;
     color: var(--primary-color);
     padding: 20px
+    background-color: rgba(38, 37, 37, 0.5);
+
+}
+.projects p {
+    color: white;
+    font-size: 35px;
 
 }
 .row {
@@ -86,7 +103,7 @@ img {
 
 }
 .col-sm-6 {
-     border: 1px solid var(--primary-color) !important;
+
      border-radius: 5%;
      padding: 1em;
 
@@ -102,13 +119,13 @@ button {
 
 button a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #ed1e1e;
 
 }
 
 button a:hover {
     text-decoration: none;
-    color: var(--primary-color);
+    color:  #ed1e1e;
 }
 
 footer {
@@ -123,4 +140,14 @@ footer {
 footer a {
     text-decoration: none;
     color: var(--primary-color);
+}
+
+@media (max-width: 960px) {
+    h1 {
+        font-size: 50px;
+    }
+    .paragraph {
+        padding: 0;
+        text-align: center;
+    }
 }
