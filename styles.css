@@ -3,15 +3,15 @@ font-family: 'Berkshire Swash', cursive;
 font-family: 'Great Vibes', cursive;
 font-family: 'Tangerine', cursive; */
 :root {
-  --primary-color: #730F1E;
+  --primary-color: #ed1e1e;
   --text-color: white;
   --text-deco: center;
   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   --primary-font: 'Alice', serif;
 }
 body {
-  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/970/original/wallpaper.jpeg?1670848997');
-  object-fit: stretch;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/368/original/flower.jpeg?1670963815");
+  object-fit: fill;
   color: white;
   font-family: var(--primary-font);
 }
@@ -73,7 +73,8 @@ i {
 .personal {
      border-radius: 50%;
       width: 300px;
-  height: 300px;
+    height: 300px;
+    padding-top: 40px;
 }
 img {
   display: block;
@@ -120,6 +121,7 @@ button {
   border-color: white;
   box-shadow: var(--box-shadow);
   color: var(--text-color);
+  
 }
 
 
