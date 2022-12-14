@@ -17,12 +17,13 @@ body {
 }
 nav {
     font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 40px;
 }
 h1 {
   font-size: 80px !important;
-   font-family: 'Great Vibes', cursive;
+  font-family: 'Great Vibes', cursive;
   text-align: var(--text-deco);
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 h2 {
 text-align: center;
@@ -46,10 +47,9 @@ text-align: center;
 
 }
 .paragraph-me {
-border: 1px solid var(--primary-color);
-border-radius: 5%;
-font-size: 20px;
-  margin: 20px
+font-family: 'Courier New', Courier, monospace;
+font-size: 18px;
+line-height: 1.5;
 
 }
 
@@ -121,7 +121,7 @@ button {
   border-color: white;
   box-shadow: var(--box-shadow);
   color: var(--text-color);
-  
+
 }
 
 
