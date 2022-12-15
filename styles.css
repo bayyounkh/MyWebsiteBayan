@@ -11,7 +11,7 @@ font-family: 'Tangerine', cursive; */
 }
 body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/368/original/flower.jpeg?1670963815");
-  object-fit: fill;
+ 
   color: white;
   font-family: var(--primary-font);
 }
