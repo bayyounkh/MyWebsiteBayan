@@ -10,8 +10,9 @@ font-family: 'Tangerine', cursive; */
   --primary-font: 'Alice', serif;
 }
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/131/original/vecteezy_top-view-of-dark-and-black-table-with-laptop-and-business_3815993_569.jpeg?1671186147");
-  background-size: fill;
+  background-color: black !important;
+  background-image: none;
+   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   font-family: var(--primary-font);
@@ -198,7 +199,11 @@ footer a {
     color: var(--primary-color);
 }
 
-@media (max-width: 960px) {
+@media (min-width: 720px) {
+  body {
+   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/131/original/vecteezy_top-view-of-dark-and-black-table-with-laptop-and-business_3815993_569.jpeg?1671186147");
+    background-color: transparent
+  }
     h1 {
         font-size: 50px;
     }
