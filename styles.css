@@ -54,7 +54,7 @@ line-height: 1.5;
 
 #button {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding-top: 30px;
 
 }
@@ -162,12 +162,12 @@ button a:hover {
    max-width: 600px;
 
 }
-/* .grid-img {
+.grid-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
     margin: 10px;
-} */
+}
 .contacting {
      font-family: var(--primary-font);
       color: var(--text-color);
