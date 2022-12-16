@@ -43,9 +43,7 @@ text-align: center;
   padding: 1em;
 }
 .description {
-   background-color: rgba(38, 37, 37, 0.5);
-
-
+   background-color: rgba(38, 37, 37, 0.8);
 }
 .paragraph-me {
 font-family: 'Courier New', Courier, monospace;
@@ -146,8 +144,6 @@ button {
 button a {
     text-decoration: none;
     color: #ed1e1e;
-
-
 }
 
 button a:hover {
