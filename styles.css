@@ -11,7 +11,7 @@ font-family: 'Tangerine', cursive; */
 }
 body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/368/original/flower.jpeg?1670963815");
- 
+
   color: white;
   font-family: var(--primary-font);
 }
@@ -135,6 +135,25 @@ button a:hover {
     text-decoration: none;
     color:  #ed1e1e;
 }
+#connect {
+
+   border: 1px solid black;
+   border-radius: 8%;
+   background-color: rgba(38, 37, 37, 0.5);
+   text-align: center;
+   padding: 20px;
+   margin: auto;
+   max-width: 600px;
+
+}
+.contacting {
+     font-family: var(--primary-font);
+      color: var(--text-color);
+     text-align: center;
+
+}
+
+
 
 footer {
     text-align: center;
@@ -143,6 +162,7 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+    margin-top: 10px;
     color: var(--text-color);
 }
 footer a {
