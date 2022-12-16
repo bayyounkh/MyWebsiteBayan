@@ -11,7 +11,7 @@ font-family: 'Tangerine', cursive; */
 }
 body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/131/original/vecteezy_top-view-of-dark-and-black-table-with-laptop-and-business_3815993_569.jpeg?1671186147");
-  background-size: cover;
+  background-size: stretch
   background-repeat: no-repeat;
   color: white;
   font-family: var(--primary-font);
@@ -162,12 +162,12 @@ button a:hover {
    max-width: 600px;
 
 }
-.grid-img {
-        display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+/* .grid-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
     margin: 10px;
-}
+} */
 .contacting {
      font-family: var(--primary-font);
       color: var(--text-color);
