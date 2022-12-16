@@ -146,6 +146,12 @@ button a:hover {
    max-width: 600px;
 
 }
+.grid-img {
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 10px;
+}
 .contacting {
      font-family: var(--primary-font);
       color: var(--text-color);
