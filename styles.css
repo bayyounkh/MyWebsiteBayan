@@ -10,8 +10,9 @@ font-family: 'Tangerine', cursive; */
   --primary-font: 'Alice', serif;
 }
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/368/original/flower.jpeg?1670963815");
-
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/128/original/Black_Wallpapers_Free_Download_-_PixelsTalk_Net.jpeg?1671183867");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   font-family: var(--primary-font);
 }
@@ -57,6 +58,7 @@ line-height: 1.5;
   display: flex;
   justify-content: space-evenly;
   padding-top: 30px;
+
 }
 #contact {
   text-align: var(--text-deco);
@@ -70,6 +72,21 @@ line-height: 1.5;
 i {
     color: #730F1E;
 }
+.skills {
+   font-family: var(--primary-font);
+   font-size: 18px;
+   color: white;
+   text-align: center;
+   background-color: rgba(38, 37, 37, 0.5);
+   padding: 10px;
+
+}
+ h3 {
+     font-size: 35px !important;
+    color: var(--primary-color);
+    padding: 20px;
+}
+
 .personal {
      border-radius: 50%;
       width: 300px;
@@ -122,6 +139,7 @@ button {
   box-shadow: var(--box-shadow);
   color: var(--text-color);
 
+
 }
 
 
@@ -129,12 +147,14 @@ button a {
     text-decoration: none;
     color: #ed1e1e;
 
+
 }
 
 button a:hover {
     text-decoration: none;
     color:  #ed1e1e;
 }
+
 #connect {
 
    border: 1px solid black;
