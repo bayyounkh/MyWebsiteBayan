@@ -30,6 +30,8 @@ h1 {
 }
 h2 {
 text-align: center;
+font-size: 22px;
+padding-top: 18px;
 }
 .about {
   text-align: var(--text-deco);
@@ -40,7 +42,7 @@ text-align: center;
 
 .paragraph {
 
-  font-size: 20px;
+  font-size: 17px;
   margin: 20px;
   padding: 1em;
 }
